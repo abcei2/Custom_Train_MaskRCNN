@@ -1,2 +1,0 @@
-put here 'via_export_json.json' annotation file
-put here the images            
