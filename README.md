@@ -4,11 +4,12 @@ Training on custom dataset with (multi/unique class) of a Mask RCNN
 
 ### Requirements 
 ```
-  python3.6
+  python3.6-3.8
   cuda==10.0
   cudnn==7.6.5
   tensorflow-gpu==1.14.0
   keras==2.2.5
+  opencv-python
   pycocotools
   matplotlib
   mrcnn
@@ -16,7 +17,11 @@ Training on custom dataset with (multi/unique class) of a Mask RCNN
   numpy
   pylab
   scikit-image
+  ----------------------------------------------
+  sudo apt-get install python3 python3-pip
+  sudo pip install -r requeriments.txt
 ```
+
 
 ### Structure
 - dataset: folder where you put the train and val folders (read inside to know what to put).
