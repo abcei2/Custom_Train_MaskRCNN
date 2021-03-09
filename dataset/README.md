@@ -16,11 +16,11 @@ dataset/
 Where via_export_json_val.json and via_export_json_train.json are obtained from label all images  
 using VGG label software. https://gitlab.com/vgg/via **via-2.x.y**
 **Original url:** https://gitlab.com/vgg/via  
-
+<div>
 ## Download VGG LABEL and open it.  
 <img src="../README_images/opening_vgglabelel.jpg" align="left"  width="600" height="400">
 Clone Vgg label open file **via-2.x.y/src/index.html** with firefox or chrome.  
-
+</div>
 ## Load or save project  
 When click on load you have to find de **ETIQUETADO.json** project. Or when click save you save that .json file with project information.
 <img src="../README_images/main_vgglabel.jpg" align="right" width="600" height="400">  
