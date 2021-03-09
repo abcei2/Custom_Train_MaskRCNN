@@ -1,0 +1,13 @@
+ipython==7.16.1
+matplotlib==3.3.4
+mrcnn==0.2
+numpy==1.19.5
+opencv-python==4.5.1.48
+Pillow==8.1.1
+pycocotools==2.0.2
+scikit-build==0.11.1
+scikit-image==0.17.2
+scipy==1.5.4
+six==1.15.0
+tensorflow-gpu==1.14.0
+
