@@ -48,7 +48,7 @@ For test is need atleast 2 GB of GPU and 4 of ram memory.  Inference works with 
 
 ### Dataset
 
-La carpeta donde se alojan las imágenes y sus metadatos se organizan así;
+The folder where the images and annotations should be place:
 
 dataset/
   -train/
@@ -62,5 +62,5 @@ dataset/
     -img22.jpg 
     ...
   
-Donde **via_export_json_val.json y via_export_json_train.json** se obtienen de etiquetar respectivamente las imágenes de entrenamiento y las de prueba  
-desde el software VGG label. https://gitlab.com/vgg/via via-2.x.y
+Where **via_export_json_val.json and via_export_json_train.json** are obtained from label all images  
+using VGG label software. https://gitlab.com/vgg/via via-2.x.y
