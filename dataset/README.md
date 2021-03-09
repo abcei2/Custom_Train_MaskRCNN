@@ -20,7 +20,7 @@ using VGG label software. https://gitlab.com/vgg/via **via-2.x.y**
 <img src="../README_images/opening_vgglabelel.jpg" align="left"  width="600" height="400">
 Clone Vgg label open file **via-2.x.y/src/index.html** with firefox or chrome.  
 ## Load or save project  
-When click on load you have to find de **ETIQUETADO.json** project. Or when click save you save that .json file with project information.  
+When click on load you have to find de **ETIQUETADO.json** project. Or when click save you save that .json file with project information.
 <img src="../README_images/main_vgglabel.jpg" align="right" width="600" height="400">  
 ## Image not found  
 <img src="../README_images/image_not_found.jpg" align="left" width="600" height="400">
