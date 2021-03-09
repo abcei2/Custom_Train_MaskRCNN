@@ -26,11 +26,14 @@ When click on load you have to find de **ETIQUETADO.json** project. Or when clic
 <img src="../README_images/main_vgglabel.jpg" align="center" width="600" height="400">  
 
 ## Image not found  
-<img src="../README_images/image_not_found.jpg" align="center" width="600" height="400">  
-Sometimes when project is loaded image is not found. Apears with red letters and an alert.  
-<img src="../README_images/loading_images.jpg" align="center" width="600" height="400">  
+Sometimes when project is loaded image is not found. Apears with red letters and an alert.     
+
+<img src="../README_images/image_not_found.jpg" align="center" width="600" height="400">    
+
 So you have to load that images by you own, clicking on **Add Files** button an selecting all images you need.  
 
+<img src="../README_images/loading_images.jpg" align="center" width="600" height="400">    
+
 ## Images loaded  
-When images are loaded successfully you can see the labels, or trace new labels.  
+When images are loaded successfully you can see the labels, or trace new labels.     
 <img src="../README_images/images_loaded.jpg" align="center" width="600" height="400">  
