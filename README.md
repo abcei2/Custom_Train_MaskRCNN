@@ -2,7 +2,7 @@
 
 Training on custom dataset with (multi/unique class) of a Mask RCNN
 
-### Requirements (no specific version requirements)
+### Requirements 
 ```
   python3.6
   cuda==10.0
@@ -45,3 +45,22 @@ For training is need atleast 12 GB of GPU and 8 of ram memory.  Inference works 
 #### Val: 
 
 For test is need atleast 2 GB of GPU and 4 of ram memory.  Inference works with cpu, but is quite slow.
+
+### Dataset
+
+La carpeta donde se alojan las imágenes y sus metadatos se organizan así;
+
+dataset/
+  -train/
+    -via_export_json_train.json
+    -img1.jpg
+    -img2.jpg 
+    ...
+  -val/
+    -via_export_json_val.json
+    -img21.jpg
+    -img22.jpg 
+    ...
+  
+Donde **via_export_json_val.json y via_export_json_train.json** se obtienen de etiquetar respectivamente las imágenes de entrenamiento y las de prueba  
+desde el software VGG label. https://gitlab.com/vgg/via via-2.x.y
