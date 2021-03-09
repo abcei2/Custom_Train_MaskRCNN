@@ -1,4 +1,0 @@
-models/*.h5
-weights/*.h5
-dataset/train/*
-dataset/val/*
