@@ -55,7 +55,7 @@ To test model trained use;
 
 #### Train: 
 
-For training is need atleast 12 GB of GPU and 8 of ram memory.  Inference works with cpu, but is very slow.
+For training is need atleast 12 GB of GPU and 8 of ram memory.  Train works with cpu, but is very slow.
 
 #### Val: 
 
