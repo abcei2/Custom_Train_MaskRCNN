@@ -17,4 +17,4 @@ Where via_export_json_val.json and via_export_json_train.json are obtained from 
 using VGG label software. https://gitlab.com/vgg/via **via-2.x.y**
 **Original url:** https://gitlab.com/vgg/via
 
-![plot](../README_images/opening_vgglabelel.jpg =250x)
+![](../README_images/opening_vgglabelel.jpg =250x)
