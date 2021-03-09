@@ -16,4 +16,4 @@ dataset/
 Where via_export_json_val.json and via_export_json_train.json are obtained from label all images  
 using VGG label software. https://gitlab.com/vgg/via **via-2.x.y**
 **Original url:** https://gitlab.com/vgg/via
-![test image size](../README_images/opening_vgglabelel.jpg){:class="img-responsive"}
+<img src="../README_images/opening_vgglabelel.jpg" width="100" height="100">
