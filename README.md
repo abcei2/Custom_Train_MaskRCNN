@@ -1,36 +1,47 @@
 # Custom_Train_MaskRCNN
-![](https://img.shields.io/badge/<implementation>-<customtrain>-<success>)
-
-
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/R5R11K2H4)
 
 Training on custom dataset with (multi/unique class) of a Mask RCNN
 
 ### Requirements (no specific version requirements)
 ```
+  python3.6
+  cuda==10.0
+  cudnn==7.6.5
   tensorflow-gpu==1.14.0
   keras==2.2.5
-  python3
   pycocotools
   matplotlib
   mrcnn
   tqdm
   numpy
   pylab
-  skimage
+  scikit-image
 ```
-Note: installation for mrcnn will be explained in the medium article linked in the repo.
+
 ### Structure
-- dataset: folder where you put the train and val folders (read inside to know what to put)
+- dataset: folder where you put the train and val folders (read inside to know what to put).
 - logs: folder where we store the intermediate/checkpoints and final weights after training
-- weights: weights for the model, we fetch the weights from here for the test script
+- weights: weights for the model (.h5 file), we fetch the weights from here for the test script
 - weights_db: tells if weights is coco or not, to drop some layers for new classes.
-- detect_segment_test.py: test script for the segmentation, displays mask on top of input image, usage given by --h argument
-- train.py: main script for this section, read medium article to know what to modify
+- train_data.py: main script for train the model with the data.
+- test_data.py: script to test the model with camera.
 
 ### Usage 
-First training usage, more options showed in the train.py script as comment:
+First training usage, with **--weights_db=coco** loads weights and drops some output layers to fit the new data:
 ```
-   python3 train.py train --dataset=./dataset --weights=./weights/mask_rcnn_coco.h5 --weights_db=coco
+   python train_model.py --dataset=./dataset --weights=./weights/mask_rcnn_coco.h5 --weights_db=coco
+```
+To test model trained use;
+```
+  python test_model.py
 ```
 
+### Hardware requeriments
+
+#### Train: 
+
+For training is need atleast 12 GB of GPU and 8 of ram memory.  Inference works with cpu, but is very slow.
+
+#### Val: 
+
+For test is need atleast 2 GB of GPU and 4 of ram memory.  Inference works with cpu, but is quite slow.
